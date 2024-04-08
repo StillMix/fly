@@ -1,0 +1,13 @@
+.card{
+    background: white;
+    padding: 15px;
+}
+
+.card button{
+    width: 50px;
+}
+
+.dis{
+    display: none;
+    visibility: hidden;
+}

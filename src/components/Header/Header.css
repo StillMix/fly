@@ -1,0 +1,47 @@
+.header{
+    width: 1280px;
+    height: 115px; 
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+.header__logo{
+    margin-left: 37px;
+
+}
+
+.header__link{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-decoration: none;
+    margin-left: 58px;
+    color: rgba(43, 54, 116, 1);
+}
+
+.header__link:hover{
+    opacity: 0.8;
+}
+
+.header__link:first-of-type{
+    margin-left: 96px;
+}
+
+.header__linkBack{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 38px;
+    color: rgba(43, 54, 116, 1);
+}
+
+.header__linkBack:hover{
+    opacity: 0.8;
+}
