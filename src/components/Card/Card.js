@@ -5,10 +5,10 @@ function Card(props) {
 
   return (
     <div className="card">
-          <p>Москва - Санкт-Петербург</p> 
-          <p> Отправление: 16 января в 8:30</p>
-          <p>Прибытие: 18 января в 10:20</p>
-          <p>Цена: 4 980₽</p>
+          <p>{`${props.card.ot} - ${props.card.kuda}`}</p> 
+          <p>{`Отправление: ${props.card.koda}`}</p>
+          <p>{`Прибытие: ${props.card.kodaku}`}</p>
+          <p>{`Цена: ${props.card.cent}₽`}</p>
           <button className={`${props.isOpen ? 'dis' : ''}`}>Купить</button>
     </div>
   );
