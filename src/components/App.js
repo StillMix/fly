@@ -62,6 +62,14 @@ function App(props) {
     }else{
       setloggedIn(true)
       localStorage.setItem('jwt', log.LoginInput);
+      api.getCards().then((data) => {
+        if(data){
+        setCards(data.data)
+        setloggedIn(true)
+    }
+  }).catch((err) => {
+        console.log(err)
+    })
     }
   })
   .catch(err => console.log(err));
